@@ -18,4 +18,5 @@ var posicion = prompt("¿En qué posición quedaches?");
 posicion = parseFloat(posicion);
 
 var funcioncita = tipoDeMedalla(posicion);
+document.write(posicion + "º</br>");
 document.write(medalla);
